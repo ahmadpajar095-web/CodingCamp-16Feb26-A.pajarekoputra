@@ -4,8 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="head-box">
+        <P class="head">Todoit</P>
+    </header>
+    <div class="back">
+        <div class="inbox">
+            <label for="text" class="label">Task</label>
+            <input type="text" class="input" id="task" required>
+            <button type="button" class="in-button" onclick="box()">tambah</button>
+        </div>
+        <div class="fungsi">
+            <select id="filter" name="filter" class="filter">
+                <option value="semua">semua</option>
+                <option value="selesai">selesai</option>
+                <option value="berlangsung">berlangsung</option>
+            </select>
+
+            
+            <button class="del-all" onclick="deleteAll()">hapus semua</button>
+        </div>
+        <div class="daftar-isi">
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

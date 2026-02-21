@@ -1,0 +1,143 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.head-box {
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 6px black;
+}
+.head {
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+body {
+    background-color: rgb(232, 193, 142);
+}
+.isi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid ;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+.inbox {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.input {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+
+}
+.in-button {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border: none;
+    background-color: rgb(248, 208, 156);
+    border-radius: 3px;
+    transition: 0.1s ease;
+    box-shadow: 1px 1px 6px black ;
+}
+.in-button:hover {
+    background-color: rgb(196, 164, 122);
+    transform: translateY(-4px);
+}
+.label {
+    margin: 5px 5px;
+    padding: 5px 5px;
+}
+.isi-2 {
+    display: flex;
+    gap: 15px;
+}
+
+.mark {
+    text-decoration: line-through;
+}
+.fns {
+    background-color: green;
+}
+.tog-button {
+    border: none;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px black;
+}
+.tog-button:hover {
+    background-color: rgba(27, 191, 27, 0.814);
+}
+.del-button {
+    border: none;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px black;
+}
+.del-button:hover {
+    background-color: rgba(228, 63, 63, 0.798);
+    border: none;
+}
+
+.back {
+    margin: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 1px 2px 9px black;
+}
+
+.slide-out {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.5s ease , opacity 0.5s ease;
+}
+.kosongan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fungsi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter {
+    margin: 15px 5px;
+    padding: 5px 5px;
+    border: none;
+    background-color: rgb(248, 208, 156);
+    border-radius: 3px;
+    transition: 0.1s ease;
+    box-shadow: 1px 1px 6px black ;
+}
+.del-all {
+    margin: 5px 5px;
+    padding: 5px 5px;
+    border: none;
+    background-color: rgb(248, 208, 156);
+    border-radius: 3px;
+    transition: 0.1s ease;
+    box-shadow: 1px 1px 6px black ;
+}
+.del-all:hover {
+    background-color: rgb(196, 164, 122);
+    transform: translateY(-4px);
+}
